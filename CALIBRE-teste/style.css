@@ -5559,3 +5559,19 @@ body.auth-locked > :not(#authScreen):not(#authAccount):not(script) { display:non
 .calibre-subscription-end,.calibre-subscription-note{font-size:13px;line-height:1.5;color:#a6c1b0;margin:16px 0 0}
 #calibreSubscriptionDone{display:block;margin:22px 0 0 auto}
 @media(max-width:420px){.calibre-subscription-dialog{padding:19px}.calibre-subscription-grid{gap:8px}.calibre-subscription-grid>div{padding:12px}.calibre-subscription-grid strong{font-size:17px}}
+
+/* AUMENTAR FOTO E MENU NO CELULAR */
+@media (max-width: 550px) {
+
+    /* Foto de perfil */
+    .auth-account-details summary {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Ícone do menu */
+    .icon-btn {
+        font-size: 31px;
+    }
+
+}
